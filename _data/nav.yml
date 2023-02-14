@@ -1,0 +1,14 @@
+- title : Search
+  link  : "#search"
+
+- title : Popular Place
+  link  : "#popular"
+
+- title : Booking
+  link  : "#booking"
+
+- title : Gallery
+  link  : "#gallery"
+
+- title : Contact
+  link  : "#contact"

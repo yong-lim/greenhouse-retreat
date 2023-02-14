@@ -1,0 +1,15 @@
+<section class="section section-icons grey lighten-4 center">
+  <div class="container">
+    <div class="row">
+      {% for box in site.data.boxes %}
+      <div class="col s12 m4">
+        <div class="card-panel">
+          <i class="material-icons large orange-text text-darken-3">{{ box.icon }}</i>
+          <h4>{{ box.title }}</h4>
+          <p>{{ box.details }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

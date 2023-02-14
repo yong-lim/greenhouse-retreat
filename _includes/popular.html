@@ -1,0 +1,20 @@
+<section class="section section-popular scrollspy" id="popular">
+  <div class="container">
+    <div class="row">
+      <h4 class="center"><span class="orange-text text-darken-3">Popular</span> Places</h4>
+      {% for pop in site.data.popular %}
+      <div class="col s12 m4">
+        <div class="card small">
+          <div class="card-image">
+            <img src="assets/img/{{ pop.image }}" alt="">
+            <span class="card-title">{{ pop.title }}</span>
+          </div>
+          <div class="card-content">
+            <p>{{ pop.text }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

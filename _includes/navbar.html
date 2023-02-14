@@ -1,0 +1,23 @@
+<div class="navbar-fixed">
+  <nav class="orange darken-3">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#home" class="brand-logo">{{ site.title }}</a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          {% for nav in site.data.nav %}
+          <li><a href="{{ nav.link }}">{{ nav.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<ul class="side-nav" id="mobile-nav">
+  {% for nav in site.data.nav %}
+  <li><a href="{{ nav.link }}">{{ nav.title }}</a></li>
+  {% endfor %}
+</ul>

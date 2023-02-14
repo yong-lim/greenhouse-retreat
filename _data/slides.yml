@@ -1,0 +1,19 @@
+- title     : "See the majestic elephants in their natural habitats"
+  details   : "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  photo     : greenhouse1.jpg
+  motion    : center-align 
+  link-text : "INFO"
+
+- title   : "See the majestic elephants in their natural habitats"
+  details : "Vel quod, accusamus aliquid itaque minima odit."
+  photo   : greenhouse2.jpg
+  motion  : left-align
+  link      : "#contact"
+  link-text : "INFO"
+
+- title   : "See the majestic elephants in their natural habitats"
+  details : "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  photo   : greenhouse3.jpg
+  motion  : right-align
+  link      : "#contact"
+  link-text : "INFO"

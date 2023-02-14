@@ -1,0 +1,14 @@
+<section class="slider">
+  <ul class="slides">
+    {% for slide in site.data.slides %}
+    <li>
+      <img src="assets/img/{{ slide.photo }}" alt="">
+      <div class="caption {{ slide.motion }}">
+        <h3>{{ slide.title }}</h3>
+        <h5 class="light grey-text text-lighten-3 hide-on-small-only">{{ slide.details }}</h5>
+        <a href="{{ slide.link }}" class="btn btn-large orange darken-3 btn-floating pulse">{{ slide.link-text }}</a>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

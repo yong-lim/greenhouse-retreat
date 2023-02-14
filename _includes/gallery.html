@@ -1,0 +1,19 @@
+<section class="section section-gallery scrollspy" id="gallery">
+  <div class="container">
+    <h4 class="center">
+      <span class="orange-text text-darken-3">Photo</span> Gallery
+    </h4>
+    <div class="row">
+      {% for photo in site.data.gallery %}
+      <div class="col s12 m3">
+        <img src="assets/img/gallery/{{ photo.img }}" alt="" class="materialboxed responsive-img">
+      </div>
+      {% assign remainder = forloop.index | modulo: 4 %}
+      {% if remainder == 0 %}
+      </div>
+      <div class="row">
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

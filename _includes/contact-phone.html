@@ -1,0 +1,18 @@
+      <!-- contact phone info -->
+      <div class="col s12 m6">
+        <div class="card-panel orange darken-3 white-text center">
+          <i class="material-icons medium">email</i>
+          <h5>Contact Us For Booking</h5>
+          {% for phone in site.data.phones %}
+          <p>{{ phone.title }} {{ phone.phone }}</p>
+          {% endfor %}
+        </div>
+        <ul class="collection with-header">
+          <li class="collection-header">
+            <h4>Location</h4>
+          </li>
+          {% for addr in site.data.address %}
+          <li class="collection-item">{{ addr.address }}</li>
+          {% endfor %}
+        </ul>
+      </div>
