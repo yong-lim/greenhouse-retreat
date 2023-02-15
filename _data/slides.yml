@@ -2,18 +2,19 @@
   details   : ""
   photo     : greenhouse1.jpg
   motion    : center-align 
+  link      : "#contact"
   link-text : "INFO"
 
-- title   : "See the majestic elephants in their natural habitats"
+- title   : "Stay at our beautify spacious rooms and gardens"
   details : ""
   photo   : greenhouse2.jpg
   motion  : left-align
   link      : "#contact"
   link-text : "INFO"
 
-- title   : "See the majestic elephants in their natural habitats"
+- title   : "Take tours with the many options with our tour packages"
   details : ""
   photo   : greenhouse3.jpg
   motion  : right-align
-  link      : "#contact"
+  link      : "#popular"
   link-text : "INFO"
