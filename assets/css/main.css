@@ -27,3 +27,9 @@
 .section-contact h5{
   margin-bottom: 30px;
 }
+
+blockquote {
+    border-left: 5px solid #26a69a;
+    margin: 0;
+}
+
