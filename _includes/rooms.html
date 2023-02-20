@@ -1,0 +1,30 @@
+<!-- Section: rooms -->
+<section class="section grey lighten-3 scrollspy" id="rooms">
+  <div class="container">
+    <div class="row">
+      <h4 class="center"><span class="orange-text text-darken-3">Rooms</span></h4>
+      <div class="col s10 offset-s1">
+        <h5><span class="orange-text text-darken-3">All rooms has the following:</span></h5>
+        <ul class="orange-text text-darken-3">
+          <li>Continental breakfast included </li>
+          <li>Free WiFi</li>
+          <li>Flat-screen TV (except Mixed Dormitory Room)</li>
+          <li>Flexible reschedule if plans change</li>
+        </ul>
+
+        <ul class="collapsible" data-collapsible="expandable">
+          {% for room in site.data.rooms %}
+          <li>
+            <div class="collapsible-header">
+              <i class="material-icons teal-text">{{ room.icon }}</i>{{ room.title }}</div>
+            <div class="collapsible-body">
+              <blockquote >{{ room.details | markdownify }}</blockquote>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,90 @@
+- title: "Bungalow with Garden View - 1 extra-large double bed"
+  details: |
+    **1 extra-large double bed**
+    
+    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
+    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
+    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
+    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
+    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
+    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
+    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
+
+    **_$40 per night_**
+  icon: file_download
+  bed : 1 extra-large double bed
+  block: "blockquote-warning"
+
+- title: "Bungalow with Patio - 2 double bed"
+  details: |
+    **2 double bed**
+    
+    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
+    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
+    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
+    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
+    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
+    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
+    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
+
+    **_$44 per night_**
+  icon: file_download
+  bed : 2 double bed
+  block: "blockquote-warning"
+
+- title: "Deluxe Bungalow with Garden View - 2 extra-large double bed"
+  details: |
+    **2 extra-large double bed**
+    
+    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
+    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
+    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
+    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
+    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
+    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
+    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
+
+    **_$50 per night_**
+  cost: $35 per person
+  icon: file_download
+  bed : 2 extra-large double bed
+  block: "blockquote-warning"
+
+- title: "Mixed Dormitory Room - 8 single beds"
+  details: |
+    **8 single bed**
+
+    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
+    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
+    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
+    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
+    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
+    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
+    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
+
+    **_$135 per night_**
+  cost: $135 per person
+  icon: file_download
+  bed : 8 single beds
+  block: "blockquote-warning"
+
+- title: "Double Room with Garden View - 1 extra-large double bed"
+  details: |
+    **1 extra-large double bed**
+
+    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
+    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
+    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
+    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
+    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
+    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
+    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
+
+    **_$27 per night_**
+  cost: $35 per person
+  icon: file_download
+  bed : 1 extra-large double bed
+  block: "blockquote-warning"
+
+# ![](assets/img/1day/1.jpg){: class="responsive-img"}
+# ![](assets/img/1day/6.jpg){: class="responsive-img"}
