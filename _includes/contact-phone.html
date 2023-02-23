@@ -3,7 +3,7 @@
         <div class="card-panel orange darken-3 white-text center">
           <i class="material-icons medium">email</i>
           <h5>Contact us by phone or email</h5>
-          {% for phone in site.data.phones %}
+          {% for phone in site.data.contact.phones %}
           <p>{{ phone.title }} {{ phone.phone }}</p>
           {% endfor %}
           <p>Email: {{ site.email }}</p>
@@ -12,8 +12,8 @@
           <li class="collection-header">
             <h4>Location</h4>
           </li>
-          {% for addr in site.data.address %}
-          <li class="collection-item">{{ addr.address }}</li>
+          {% for addr in site.data.contact.address %}
+          <li class="collection-item grey-text text-darken-2">{{ addr.address }}</li>
           {% endfor %}
         </ul>
       </div>

@@ -3,7 +3,7 @@
         <div class="card-panel grey lighten-3">
           <h5>When would you like to visit us ...</h5>
           <form onsubmit="sendGreenhouse(event)">
-            {% for item in site.data.contact %}
+            {% for item in site.data.contact.formats %}
             <div class="input-field">
               <i class="material-icons prefix orange-text text-darken-2">{{ item.icon }}</i>
               {%- if item.class %}
