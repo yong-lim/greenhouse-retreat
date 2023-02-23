@@ -5,16 +5,18 @@
       <h4 class="center"><span class="orange-text text-darken-3">Popular</span> Tours</h4>
       {% for pop in site.data.popular %}
       <div class="col s12 m4">
-        <div class="card small">
+        <div class="card medium">
           <div class="card-image">
+            <a href="https://elephantcommunityproject.org/" target="_blank">
             <img src="assets/img/{{ pop.image }}" alt="">
             <span class="card-title">{{ pop.title }} </span>
+            </a>
           </div>
           <div class="card-content">
             <p>{{ pop.text }}</p>
-            <p class="bottom center" >
+            <!-- <p class="bottom center" >
             <a href="https://elephantcommunityproject.org/" target="_blank">More info</a>
-            </p>
+            </p> -->
             <!-- <a href="{{ pop.link }}" target="_blank" class="btn btn-small center orange darken-3 btn-floating pulse">info</a> -->
           </div>
         </div>
@@ -23,4 +25,5 @@
     </div>
   </div>
 </section>
+
 
