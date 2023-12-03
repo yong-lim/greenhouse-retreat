@@ -62,7 +62,3 @@ function changeSubject(e) {
     $('#hidden-other-subject').addClass('hidden');
   }
 }
-
-
-
-
