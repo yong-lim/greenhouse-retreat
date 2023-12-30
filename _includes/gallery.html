@@ -2,12 +2,15 @@
 <section class="section section-gallery scrollspy" id="gallery">
   <div class="container">
     <h4 class="center">
+      <i class="fa fa-camera-retro heading-icon" aria-hidden="true"></i>
       <span class="orange-text text-darken-3">Photo</span> Gallery
     </h4>
     <div class="row">
       {% for photo in site.data.gallery %}
       <div class="col s12 m3">
-        <img src="assets/img/gallery/{{ photo.img }}" alt="" data-gallery="g1" class="glightbox responsive-img">
+        <a href="assets/img/gallery/{{ photo.img}}" data-gallery="g1" class="glightbox">
+          <img src="assets/img/gallery/{{ photo.img }}" alt="" class="responsive-img">
+        </a>
       </div>
       {% assign remainder = forloop.index | modulo: 4 %}
       {% if remainder == 0 %}
