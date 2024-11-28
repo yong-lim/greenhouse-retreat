@@ -1,32 +1,36 @@
-<!-- <div class="fixed-action-btn horizontal" style="bottom: 25px; right: 24px;">
-  <a href="#home" class="btn-floating btn-medium" id="back-to-top">
-    <i class="large material-icons">publish</i>
-  </a>
-</div> -->
-
 <!-- begin navbar -->
-<div id="backtop">&#9650;</div>
-<div class="navbar-fixed">
-  <nav class="orange darken-3">
-    <div class="container">
-      <div class="nav-wrapper">
-        <a href="#home" class="brand-logo">{{ site.title }}</a>
-        <a href="#" data-activates="mobile-nav" class="button-collapse">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="right hide-on-med-and-down">
-          {% for nav in site.data.nav %}
-          <li><a href="{{ nav.link }}">{{ nav.title }}</a></li>
-          {% endfor %}
-        </ul>
+<section>
+  <div id="backtop">&#9650;</div>
+  <div class="navbar-fixed">
+    <nav class="orange darken-3">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo">{{ site.title }}</a>
+          <a href="#" data-target="mobile-nav" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            {% for nav in site.data.nav %}
+            <li><a href={{ nav.link }}>{{ nav.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-</div>
+    </nav>
+  </div>
 
-<ul class="side-nav" id="mobile-nav">
-  {% for nav in site.data.nav %}
-  <li><a href="{{ nav.link }}">{{ nav.title }}</a></li>
-  {% endfor %}
-</ul>
+<!-- navbar mobile -->
+  <ul class="sidenav" id="mobile-nav">
+    {% for nav in site.data.nav %}
+    <li><a href={{ nav.link }}>{{ nav.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
 <!-- end navbar -->
+
+<script type="text/javascript">
+  // Sidenav script
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
