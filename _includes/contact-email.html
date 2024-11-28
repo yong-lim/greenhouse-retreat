@@ -29,3 +29,17 @@
           </form>
         </div>
       </div>
+
+<script type="text/javascript">
+  // Datepicker script
+  $(document).ready(function(){
+    const nextDate = new Date();
+    nextDate.setDate(nextDate.getDate() + 1)
+    $('.datepicker').datepicker({
+      autoClose: true,
+      defaultDate: nextDate,
+      setDefaultDate: true,
+    });
+  });
+</script>
+
