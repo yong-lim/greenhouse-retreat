@@ -1,5 +1,5 @@
 <!-- Section: slider -->
-<section class="slider" id="home">
+<section class="slider scrollspy">
   <ul class="slides">
     {% for slide in site.data.slides %}
     <li>
@@ -13,3 +13,17 @@
     {% endfor %}
   </ul>
 </section>
+
+<script type="text/javascript">
+  // Scrollspy & Slider script
+  $(document).ready(function(){
+    $('.scrollspy').scrollSpy();
+
+    $('.slider').slider({
+      indicators: true,
+      height: 500,
+      transition: 500,
+      interval: 4000
+    });
+  });
+</script>
