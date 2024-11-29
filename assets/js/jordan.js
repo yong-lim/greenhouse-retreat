@@ -32,10 +32,12 @@ function postGreenhouse(e) {
   // console.log("inpostEatery");
   pleaseWaite();
 
+  const formID  = "1FAIpQLSduR6NYkzWsDHM8w65wz3x_mpe23aUvvEwd0eundWrgQwALDA";
+  const formURL = `https://docs.google.com/forms/d/e/${formID}/formResponse`;    
   //AJAX request
   $.ajax({
     //The public Google Form url, but replace /view with /formResponse
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLSd-0eFGpF8gqkf4EOx4wrGsyy0yiVZIV0sO4HmK03uYq-ol5g/formResponse',     
+    url: formURL,
     data: $('#formID').serialize(), //Nifty jquery function that gets all the input data 
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
