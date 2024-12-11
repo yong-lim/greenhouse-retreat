@@ -1,5 +1,4 @@
 <!--Import jQuery before materialize.js-->
-
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <!-- Import Font Awesome -->
@@ -11,8 +10,29 @@
 <script type="text/javascript" src="assets/js/float-panel.js"></script>
 
 <script type="text/javascript">
-  // Collapsible script
+  // Initialize
   $(document).ready(function(){
+    // Sidenav
+    $('.sidenav').sidenav();
+    // Scrollspy
+    $('.scrollspy').scrollSpy();
+    // Collapsiable
     $('.collapsible').collapsible();
+    // Slider
+    $('.slider').slider({
+      indicators: true,
+      height: 500,
+      transition: 500,
+      interval: 4000
+    });
+    // Datepicker
+    const nextDate = new Date();
+    nextDate.setDate(nextDate.getDate() + 1)
+    $('.datepicker').datepicker({
+      autoClose: true,
+      defaultDate: nextDate,
+      setDefaultDate: true,
+    });
   });
 </script>
+
