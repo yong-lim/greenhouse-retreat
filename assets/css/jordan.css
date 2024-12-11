@@ -1,4 +1,9 @@
 /* override materializecss blockquote values */
+blockquote {
+  /* border-left: 5px solid #26a69a; */
+  border-left: 5px solid #ef6c00;
+  margin: 0;
+}
 .hidden{
   display:none !important
 }
