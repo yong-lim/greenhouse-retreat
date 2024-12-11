@@ -1,45 +1,32 @@
-      <!-- left-side contact email info -->
-      <div class="col s12 m6">
-        <div class="card-panel grey lighten-3">
-          <h5>When would you like to visit us ...</h5>
-          <form id="formID" onsubmit="postGreenhouse(event)">
-            {% for item in site.data.contact.formats %}
-            <div class="input-field">
-              <i class="material-icons prefix orange-text text-darken-2">{{ item.icon }}</i>
-              {%- if item.class %}
-              <input type="{{ item.type }}" name="{{ item.name }}" class="{{ item.class }}" id="{{ item.id }}" >
-              {%- else %}
-              <input type="{{ item.type }}" name="{{ item.name }}" id="{{ item.id }}" {{ item.req }} autocomplete="on" >
-              {%- endif %}
-              <label for="{{ item.id }}">{{ item.label }}</label>
-            </div>
-            {% endfor %}
-            <div class="input-field">
-              <i class="material-icons prefix orange-text text-darken-2">message</i>
-              <textarea class="materialize-textarea" name="entry.1755075229" id="message" ></textarea>
-              <label for="message">Your Message</label>
-            </div>
-            <div id="alert-field" class="alert hidden">
-              <p>Uh oh! Something went wrong!</p>
-            </div>
-            <button id="sendButton" class="btn waves-effect waves-light" type="submit" name="action">Submit
-              <i class="material-icons right">send</i>
-            </button>
-            <!-- <input type="submit" value="submit" class="orange darken-3 btn"> -->
-          </form>
-        </div>
+<!-- left-side contact email info -->
+<div class="col s12 m6">
+  <div class="card-panel grey lighten-3">
+    <h5>When would you like to visit us ...</h5>
+    <form id="formID" onsubmit="postGreenhouse(event)">
+      {% for item in site.data.contact.formats %}
+      <div class="input-field">
+        <i class="material-icons prefix orange-text text-darken-2">{{ item.icon }}</i>
+        {%- if item.class %}
+        <input type="{{ item.type }}" name="{{ item.name }}" class="{{ item.class }}" id="{{ item.id }}" >
+        {%- else %}
+        <input type="{{ item.type }}" name="{{ item.name }}" id="{{ item.id }}" {{ item.req }} autocomplete="on" >
+        {%- endif %}
+        <label for="{{ item.id }}">{{ item.label }}</label>
       </div>
-
-<script type="text/javascript">
-  // Datepicker script
-  $(document).ready(function(){
-    const nextDate = new Date();
-    nextDate.setDate(nextDate.getDate() + 1)
-    $('.datepicker').datepicker({
-      autoClose: true,
-      defaultDate: nextDate,
-      setDefaultDate: true,
-    });
-  });
-</script>
+      {% endfor %}
+      <div class="input-field">
+        <i class="material-icons prefix orange-text text-darken-2">message</i>
+        <textarea class="materialize-textarea" name="entry.1755075229" id="message" ></textarea>
+        <label for="message">Your Message</label>
+      </div>
+      <div id="alert-field" class="alert hidden">
+        <p>Uh oh! Something went wrong!</p>
+      </div>
+      <button id="sendButton" class="btn waves-effect waves-light" type="submit" name="action">Submit
+        <i class="material-icons right">send</i>
+      </button>
+      <!-- <input type="submit" value="submit" class="orange darken-3 btn"> -->
+    </form>
+  </div>
+</div>
 
