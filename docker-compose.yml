@@ -1,0 +1,12 @@
+# no version needed since 2020
+services:
+  jekyll:
+    image: bretfisher/jekyll-serve
+    container_name: greenhouse
+    working_dir: /srv
+    volumes:
+      - .:/srv
+    ports:
+      - '5746:5746'
+      - '35746:35746'
+    command: bundle exec jekyll s --trace --force_polling -H 0.0.0.0 -P 5746 -l --livereload-port 35746
