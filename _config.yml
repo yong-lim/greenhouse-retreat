@@ -39,6 +39,7 @@ priceline: "https://www.priceline.com/relax/at/97846004/from/20230411/to/2023041
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - README.md
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
