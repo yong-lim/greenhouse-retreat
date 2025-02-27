@@ -1,88 +1,96 @@
-- title: "Bungalow with Garden View - 1 extra-large double bed"
-  details: |
-    **1 extra-large double bed**
-    
-    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
-    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
-    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
-    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
-    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
-    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
-    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
+- title: "Garden Bungalow"
+  img-cover: "gb-cover.jpg"
+  bed: "1 double bed (+ 1 single bed)"
+  short-description: ""
+  price: $ 40-55
+  options: 
+  - title: "Deluxe Garden Bungalow"
+    image-code: "gb-deluxe"
+    bed: "1 double bed + 1 small bed"
+    price: "$ 55"
+    description: "A spacious stilt bungalow with an elevated private terrace in our garden. Featuring a comfortable double bed and a single bed with mosquito nets, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
+  - title: "Garden Bungalow (Double)"
+    image-code: "gb-double"
+    bed: "1 double bed"
+    price: "$ 40"
+    description: "A traditional wooden stilt bungalow with an elevated private terrace in our garden. Featuring a comfortable double bed, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
+  - title: "Garden Bungalow (Triple)"
+    image-code: "gb-triple"
+    bed: "1 double bed + 1 small bed"
+    price: "$ 55"
+    description: "A traditional wooden stilt bungalow with an elevated private terrace in our garden. Featuring a comfortable double bed and a single bed, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
+  details: "x"
 
-    **_$40 per night_**
-  icon: file_download
-  bed : 1 extra-large double bed
-  block: "blockquote-warning"
+- title: "Jungle Bungalow"
+  img-cover: "jb-cover.jpg"
+  bed: "1 double bed / 2 single beds"
+  short-description: ""
+  price: $ 40-45
+  options: 
+  - title: "Jungle Bungalow (Double)"
+    image-code: "jb-double"
+    bed: "1 double bed"
+    price: "$ 45"
+    description: "A traditional stilt bungalow with a private terrace offering a wide jungle view. Featuring a comfortable double bed, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
+  - title: "Jungle Bungalow (Twin)"
+    image-code: "jb-twin"
+    bed: "2 single beds"
+    price: "$ 45"
+    description: "A traditional stilt bungalow with a private terrace offering a great jungle hills view. Featuring two comfortable single beds, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
 
-- title: "Bungalow with Patio - 2 double bed"
-  details: |
-    **2 double bed**
-    
-    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
-    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
-    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
-    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
-    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
-    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
-    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
+- title: "Deluxe Jungle Bungalow"
+  img-cover: "dj-cover.jpg"
+  bed: "1 double bed / 2 single beds"
+  short-description: ""
+  price: $ 45
+  options: 
+  - title: "Deluxe Jungle Bungalow with Balcony"
+    image-code: "dj-balcony"
+    bed: "1 double bed"
+    price: "$ 45"
+    description: "A secluded stilt bungalow with a private wooden balcony offering an amazing  view over the jungle and our banana palms. Featuring a comfortable double bed with a mosquito net, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
+  - title: "Deluxe Jungle Bungalow (Double)"
+    image-code: "dj-double"
+    bed: "1 double bed"
+    price: "$ 45"
+    description: "A modern stilt bungalow with a private wooden terrace and an amazing view over the jungle hills and our banana palms. Featuring a comfortable double bed, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
+  - title: "Deluxe Jungle Bungalow (Twin)"
+    image-code: "dj-twin"
+    bed: "2 single beds"
+    price: "$ 45"
+    description: "A modern stilt bungalow with a private wooden terrace and a great view over the jungle hills and our banana palms. Featuring two comfortable single beds, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
 
-    **_$44 per night_**
-  icon: file_download
-  bed : 2 double bed
-  block: "blockquote-warning"
-
-- title: "Deluxe Bungalow with Garden View - 2 extra-large double bed"
-  details: |
-    **2 extra-large double bed**
-    
-    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
-    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
-    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
-    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
-    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
-    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
-    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
-
-    **_$50 per night_**
-  cost: $35 per person
-  icon: file_download
-  bed : 2 extra-large double bed
-  block: "blockquote-warning"
-
-- title: "Mixed Dormitory Room - 8 single beds"
-  details: |
-    **8 single bed**
-
-    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
-    Towels, Cleaning products, Seating area, Private entrance, Slippers, Mosquito net,
-    Shared toilet, Shared bathroom, Hairdryer, Fan, Towels/sheets (extra fee),
-    Outdoor furniture, Dining area, Upper floors accessible by stairs only, Toilet paper,
-    Books, DVDs, or music for children
-
-    **_$135 per night_**
-  cost: $135 per person
-  icon: file_download
-  bed : 8 single beds
-  block: "blockquote-warning"
-
-- title: "Single Room with Garden View - 1 extra-large double bed"
-  details: |
-    **1 extra-large double bed**
-
-    Free toiletries, Bathrobe, Additional bathroom, Toilet, Fireplace, Bath or shower,
-    Hardwood or parquet floors, Towels, Linen, Cleaning products, Desk 
-    Seating Area, Private entrance, TV, Slippers, Refrigerator, Mosquito net,
-    Satellite channels, Hairdryer, Fan Extra long beds (> 2 metres),
-    Towels/sheets (extra fee), Electric kettle, Outdoor furniture, Cable channels,
-    Wardrobe or closet, Dining area, Dining table, Upper floors accessible by stairs only,
-    Clothes rack, Drying rack for clothing, Toilet paper, Books, DVDs, or music for children
-
-    **_$27 per night_**
-  cost: $35 per person
-  icon: file_download
-  bed : 1 extra-large double bed
-  block: "blockquote-warning"
+- title: "Single Room"
+  img-cover: "sr-cover.jpg"
+  bed: "1 single bed"
+  short-description: ""
+  price: $ 20
+  options: 
+  - title: "Single Room"
+    image-code: "sr"
+    bed: "1 single bed"
+    price: "$ 20"
+    description: "Single Room with a shared terrace and a garden view. Featuring a comfortable single bed with a mosquito net, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
+  
+- title: "Yellow Bungalow"
+  img-cover: "yb-cover.jpg"
+  bed: "1 double bed + 2 bunk-beds"
+  short-description: ""
+  price: $ 55
+  options: 
+  - title: "Yellow Bungalow"
+    image-code: "yb"
+    bed: "1 double bed + 2 bunk-beds"
+    price: "$ 55"
+    description: "A spacious modern bungalow with a beautiful view over the jungle hills to accommodate a family of four or a group of friends. Featuring a comfortable double bed with a mosquito net and a bunk bed for two, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
+  
+- title: "Dormitory"
+  unavailable: true
+  img-cover: "do-cover.jpg"
+  bed: "8 single beds"
+  short-description: ""
+  price: $ 16 / bed
+  options: ""
 
 # ![](assets/img/1day/1.jpg){: class="responsive-img"}
 # ![](assets/img/1day/6.jpg){: class="responsive-img"}
