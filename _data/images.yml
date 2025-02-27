@@ -1,0 +1,12 @@
+restaurant:
+- img: "restaurant-1.jpg"
+- img: "restaurant-2.jpg"
+- img: "restaurant-3.jpg"
+pool:
+- img: "pool-1.jpg"
+- img: "pool-2.jpg"
+- img: "pool-3.jpg"
+entertainment:
+- img: "entertainment-1.jpg"
+- img: "entertainment-2.jpg"
+- img: "entertainment-3.jpg"
