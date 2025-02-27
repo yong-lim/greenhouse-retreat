@@ -1,0 +1,27 @@
+<!-- Section: tours -->
+<span id="tours"></span>
+<section class="section section-tours scrollspy">
+  <div class="container center pb-50">
+    <h2 class="custom-header color-primary">Our Tours</h2>
+
+    <!-- Subtitle -->
+    <p class="subtitle color-primary">
+      Join us on an <b>Ethical Jungle Adventure</b><br>with the <b>
+        <a class="color-primary" href="https://elephantcommunityproject.org/">Elephant Community Project ➜</a></b>
+    </p>
+
+    <!-- Tour Banners -->
+    <div class="row mobile-scrollable-row">
+      {% for i in (1..4) %}
+      <div class="col s6 m3">
+        <a href="https://elephantcommunityproject.org/" target="_blank">
+          <img src="assets/img/tour-banner-{{ i }}.jpg" alt="">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <a href="https://elephantcommunityproject.org/" class="btn btn-explore">Explore Now</a>
+
+  </div>
+</section>
