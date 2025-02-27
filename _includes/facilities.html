@@ -1,13 +1,13 @@
 <!-- Section: facilities -->
 <span id="facilities"></span>
-<section class="section section-facilities scrollspy">
-  <div class="container center pb-50">
+<section class="section section-facilities scrollspy mt-lg">
+  <div class="container center">
     <h2 class="custom-header color-primary">Our Facilities</h2>
 
     <p class="subheading color-primary">
       Restaurant
     </p>
-    <div class="row">
+    <div class="row mobile-scrollable-row">
       {% for photo in site.data.images.restaurant %}
       <div class="col s4">
         <a href="assets/img/facilities/{{ photo.img }}" data-gallery="g1" class="glightbox">
@@ -20,8 +20,8 @@
     <p class="subheading color-primary">
       Entertainment
     </p>
-    {% for photo in site.data.images.entertainment %}
-    <div class="row">
+    <div class="row mobile-scrollable-row">
+      {% for photo in site.data.images.entertainment %}
       <div class="col s4">
         <a href="assets/img/facilities/{{ photo.img }}" data-gallery="g1" class="glightbox">
           <img src="assets/img/facilities/{{ photo.img }}" alt="" class="responsive-img">
@@ -33,8 +33,8 @@
     <p class="subheading color-primary">
       Swimming Pool
     </p>
-    {% for photo in site.data.images.pool %}
-    <div class="row">
+    <div class="row mobile-scrollable-row">
+      {% for photo in site.data.images.pool %}
       <div class="col s4">
         <a href="assets/img/facilities/{{ photo.img }}" data-gallery="g1" class="glightbox">
           <img src="assets/img/facilities/{{ photo.img }}" alt="" class="responsive-img">
