@@ -1,14 +1,11 @@
-- title : Gallery
-  link  : "#gallery"
-
-- title : Popular
-  link  : "#popular"
-    
 - title : Rooms
   link  : "#rooms"
     
-- title : Contact Us
+- title : Contact
   link  : "#contact"
 
-- title : Map
-  link  : "#map"
+- title : Tours
+  link  : "#tours"
+
+- title : Facilities
+  link  : "#facilities"
