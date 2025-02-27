@@ -1,0 +1,31 @@
+<div class="col s12 m6">
+
+  <!-- Phone & Email -->
+  <div class="contact-info box">
+    <span>
+      <img src="assets/img/icons/icon-phone-500.png" alt="" class="icon">
+      {{ site.data.contact.phone }}
+    </span>
+    <span>
+      <img src="assets/img/icons/icon-whatsapp-500.png" alt="" class="icon">
+      {{ site.data.contact.whatsapp }}
+    </span>
+    <span>
+      <img src="assets/img/icons/icon-email-500.png" alt="" class="icon">
+      {{ site.data.contact.email }}
+    </span>
+  </div>
+
+  <!-- Google Map -->
+  <div class="contact-info box">
+    <span>
+      <a href="{{ site.data.contact.gmaps }}">
+        <img src="assets/img/icons/icon-location-500.png" alt="" class="icon">
+      </a>
+      {{ site.data.contact.location }}
+    </span>
+    <iframe width="100%" height="475" src="{{ site.google-map }}" frameborder="0" scrolling="yes" marginheight="0"
+      marginwidth="0"></iframe>
+  </div>
+
+</div>

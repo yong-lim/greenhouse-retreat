@@ -1,0 +1,47 @@
+<div class="col s12 m6">
+  <div class="contact-info box">
+
+    <span>
+      <img src="assets/img/icons/icon-message-500.png" alt="" class="icon">
+      SEND US A MESSAGE
+    </span>
+
+    <form id="formID" onsubmit="postGreenhouse(event)">
+      {% for item in site.data.contact.formats %}
+      <div class="input-field">
+        {%- if item.class %}
+        <input type="{{ item.type }}" name="{{ item.name }}" class="{{ item.class }}" id="{{ item.id }}">
+        {%- else %}
+        <input type="{{ item.type }}" name="{{ item.name }}" id="{{ item.id }}" {{ item.req }} autocomplete="on">
+        {%- endif %}
+        <label for="{{ item.id }}">{{ item.label }}</label>
+      </div>
+      {% endfor %}
+
+      <!-- Message Input -->
+      <div class="input-field">
+        <textarea class="materialize-textarea" name="entry.1755075229" id="message"></textarea>
+        <label for="message">Your Message</label>
+      </div>
+
+      <!-- Alert Field -->
+      <div id="alert-field" class="alert hidden" style="color: red;">
+        <p>Uh oh! Something went wrong!</p>
+      </div>
+
+      <!-- Submit Button -->
+      <button id="sendButton" class="btn btn-white color-primary" type="submit" name="action">SEND ➤</button>
+    </form>
+  </div>
+
+  <!-- Booking Links -->
+  <div class="box">
+    <div class="booking-links">
+      <a href="{{ site.booking }}"><img src="assets/img/logo-booking-white.jpg" alt=""></a>
+      <a href="{{ site.priceline }}"><img src="assets/img/logo-priceline-white.jpg" alt=""></a>
+    </div>
+    <p class="small-info" style="margin:10px 0 0 0;">
+      * Booking directly with us helps us to invest the commission fees in a better service & facilities. But you are welcome to use any platforms. Thank  you.
+    </p>
+  </div>
+</div>
