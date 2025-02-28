@@ -1,0 +1,55 @@
+<!-- Section: facilities -->
+<span id="facilities"></span>
+<section class="section section-facilities scrollspy mt-lg">
+  <div class="container center">
+    <h2 class="custom-header color-primary">Our Facilities</h2>
+
+    <p class="subheading color-primary">
+      Restaurant
+    </p>
+    <div class="row mobile-scrollable-row">
+      {% for photo in site.data.images.restaurant %}
+      <div class="col s4">
+        <a href="assets/img/facilities/{{ photo.img }}" data-gallery="g1" class="glightbox">
+          <img src="assets/img/facilities/{{ photo.img }}" alt="" class="responsive-img">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <p class="subheading color-primary">
+      Entertainment
+    </p>
+    <div class="row mobile-scrollable-row">
+      {% for photo in site.data.images.entertainment %}
+      <div class="col s4">
+        <a href="assets/img/facilities/{{ photo.img }}" data-gallery="g1" class="glightbox">
+          <img src="assets/img/facilities/{{ photo.img }}" alt="" class="responsive-img">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+
+    <p class="subheading color-primary">
+      Swimming Pool
+    </p>
+    <div class="row mobile-scrollable-row">
+      {% for photo in site.data.images.pool %}
+      <div class="col s4">
+        <a href="assets/img/facilities/{{ photo.img }}" data-gallery="g1" class="glightbox">
+          <img src="assets/img/facilities/{{ photo.img }}" alt="" class="responsive-img">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<script type="text/javascript" src="assets/js/glightbox.min.js"></script>
+<script type="text/javascript">
+  const lightbox = GLightbox({
+    touchNavigation: true,
+    loop: true,
+    autoplayVideos: true
+  });
+</script>

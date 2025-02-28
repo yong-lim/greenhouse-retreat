@@ -18,16 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Greenhouse Resort
+title: Greenhouse Retreat
 email: sor.phouen@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Come and rest and relax at our spacious room and transquil settings.
-  Watch the sunrise and sunset over the mountains of Mondulkiri.
+description: ""
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 google-map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15582.443117734972!2d107.18554776871903!3d12.475621028939969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3172f12b3e1636b9%3A0x34b827e8832032db!2sGreenhouse%20Retreat!5e0!3m2!1sen!2skh!4v1676294936685!5m2!1sen!2skh"
-booking: "https://www.booking.com/Share-UmvWOhR"
+booking: "https://www.booking.com/hotel/kh/greenhouse-retreat.en-gb.html"
 priceline: "https://www.priceline.com/relax/at/97846004/from/20230411/to/20230412/rooms/1?CGUID=b944e317b60b46b641d2e20e9a2ab141&REFCLICKID=HOTEL_DT_SHARE&backlink-id=qwxrv8s8n2k&cityId=5000494834&cur=USD&gid=2414&meta-id=idFrpUorLUPVMbJZP1t8J3qOSjamt3hDFKT0Ka-0fMWMwqNlbEP9EvVX8lXTeRF-Sri_8FIMMYCDSTTeFSUSOIk0N8Qb2yXTiM8So4zwAy3bkr2071pUBS93CmtCHGULu41wlYwCRhcKz42rrJlM1QB_pUhl85ojd9fx7hdeqV4xNvtX4bk-Zuw93bflVReur8nyNfTEV2LxSiseJ-bN16TmKRH_ugbEfd-GTEs_0F-sdFSwz8027fxz3PXmy0y1Fb8ulOs0NoRoqOCcL2-NTw&pclnId=6660A25CCCD1AF251CE6F1C125E3309BB6374A10958FFE1E4813FEE08120505D698B04BB7DBEB9D02D76F62AC3B8405C40F97A1E2E298AC68792D976D9C5D03D5DB895AC20D6F0B7&qdp=38&refid=DTSHARE&taxDisplayMode=BP&utm_campaign=hotel_detail&utm_content=desktop&utm_medium=button_icon&utm_source=pcln_share&vrid=5c1eb358a9858abe3cf6182ca2e79cc4"
 
 # Exclude from processing.

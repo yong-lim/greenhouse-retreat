@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body id="home" class="scrollspy">
+<body id="home" class="scrollspy">
 
-    {%- include navbar.html -%}
-    {%- include slider.html -%}
-    {%- include gallery.html -%}
-    {%- include popular.html -%}
-    {%- include rooms.html -%}
-    {%- include contact.html -%}
-    {%- include booking.html -%}
-    {%- include map.html -%}
+  {%- include navbar.html -%}
+  {%- include cover.html -%}
+  {%- include rooms.html -%}
+  {%- include tours.html -%}
+  <img alt="" class="responsive-img parallax rectangular mt-lg" style="background-image: url('assets/img/jungle-balcony.jpg');">
+  {%- include facilities.html -%}
+  <!-- TODO: Our Team -->
+  {%- include contact.html -%}
 
-    {%- include footer.html -%}
-    {%- include js-scripts.html -%}
+  {%- include footer.html -%}
+  {%- include js-scripts.html -%}
 
-  </body>
+</body>
 
 </html>
