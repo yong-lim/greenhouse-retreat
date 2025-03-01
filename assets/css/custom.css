@@ -10,6 +10,8 @@
 
 .btn {
   border-radius: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
 
   &:hover {
     background-color: #1b9c59;
@@ -19,9 +21,6 @@
 .btn-white {
   background-color: white;
   font-weight: 600;
-  border-radius: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
 
   &:hover {
     background-color: #ace4aa;
@@ -49,7 +48,7 @@
 }
 
 .mt-lg {
-  margin-top: 46px;
+  margin-top: 46px !important;
 }
 
 img {
@@ -74,7 +73,7 @@ img {
 .custom-header {
   font-size: 1.8rem;
   text-transform: uppercase;
-  font-family: fantasy;
+  font-family: "Noto Serif";
 }
 
 .custom-title {
@@ -170,8 +169,8 @@ footer {
   border: #00000044 solid 1px;
 
   .card-image img {
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
   }
 
   .card-action {
@@ -293,12 +292,11 @@ footer {
   }
 }
 
-.rectangular {
-  border-radius: 0;
-}
-
 img {
   width: 100%;
+}
+
+img:not(.icon):not(.rectangular) {
   border-radius: 10px;
 }
 
@@ -341,10 +339,14 @@ img {
   }
 
   nav .nav-wrapper {
-    width: 90%;
+    width: 83%;
     justify-self: center;
     align-content: center;
     height: 60px;
+  }
+
+  nav ul a.btn {
+    margin-right: 0;
   }
 }
 
