@@ -12,19 +12,19 @@
   border-radius: 5px;
   padding-left: 40px;
   padding-right: 40px;
+}
 
-  &:hover {
-    background-color: #1b9c59;
-  }
+.btn:hover {
+  background-color: #1b9c59;
 }
 
 .btn-white {
   background-color: white;
   font-weight: 600;
+}
 
-  &:hover {
-    background-color: #ace4aa;
-  }
+.btn-white:hover {
+  background-color: #ace4aa;
 }
 
 .btn-explore {
@@ -89,14 +89,14 @@ img {
   font-family: "Noto Serif", serif;
   font-weight: 400;
   letter-spacing: 0.1rem;
+}
 
-  img {
-    width: 45px;
-    height: 45px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-  }
+.custom-logo img {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 .custom-nav {
@@ -110,17 +110,11 @@ img {
 }
 
 .room-type {
-  padding: 20px;
+  padding: 20px 20px 40px 20px;
+}
 
-  &:not(:first-child) {
-    margin: 20px 0 0 0;
-    padding-top: 20px;
-    border-top: #0d6738 2px solid;
-  }
-
-  &:last-child {
-    margin-bottom: 20px;
-  }
+.room-type:not(:first-child) {
+  border-top: #0d6738 2px solid;
 }
 
 img.cover {
@@ -136,10 +130,6 @@ img.cover {
   background-size: cover;
 }
 
-/* html {
-  scroll-behavior: smooth;
-} */
-
 #contact,
 #tours,
 #rooms,
@@ -152,7 +142,6 @@ footer {
   height: 100px;
   justify-content: center;
 }
-
 
 .section-cover {
   font-size: 0;
@@ -167,32 +156,28 @@ footer {
 .card {
   border-radius: 11px;
   border: #00000044 solid 1px;
+}
 
-  .card-image img {
-    border-bottom-right-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
-  }
+.card .card-image img {
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
 
-  .card-action {
-    background-color: transparent;
-    display: flex;
-    justify-content: space-between;
-  }
+.card .card-action {
+  background-color: transparent;
 }
 
 .card .card-content {
-
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
 
-  .card-title {
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 500;
-    margin-bottom: 0;
-  }
-
+.card .card-title {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
 }
 
 .price {
@@ -206,11 +191,11 @@ footer {
   max-height: 90vh;
   margin-top: -5vh;
   border-radius: 10px;
+}
 
-  .modal-footer {
-    padding: 10px 20px;
-    height: auto;
-  }
+.modal-footer {
+  padding: 10px 20px;
+  height: auto;
 }
 
 .small-info {
@@ -222,74 +207,65 @@ footer {
   max-height: 32px;
 }
 
-.contact-info {
-
-  span {
-    font-size: 16px;
-    display: flex;
-    margin-bottom: 15px;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    .icon {
-      margin-right: 15px;
-      width: 32px;
-    }
-  }
-
-  iframe {
-    border-radius: 5px;
-  }
-
-  .input-field {
-
-    /* label inline color, label out unfocused color */
-    label,
-    label.active {
-      color: white;
-    }
-
-    textarea:focus {
-      border-bottom: 1px solid white;
-      box-shadow: 0 1px 0 0 white;
-
-      /* label out focused color */
-      +label {
-        color: white;
-      }
-    }
-
-    /* underline focused color */
-    input[type=text]:focus,
-    input[type=email]:focus {
-      border-bottom: 1px solid white;
-      box-shadow: 0 1px 0 0 white;
-
-      /* label out focused color */
-      +label {
-        color: white;
-      }
-    }
-
-    .datepicker-day-button {
-      color: black;
-    }
-  }
+.contact-info span {
+  font-size: 16px;
+  display: flex;
+  margin-bottom: 15px;
 }
 
-.booking-links {
-  display: flex;
-  justify-content: space-between;
+.contact-info span:last-child {
+  margin-bottom: 0;
+}
 
-  a {
-    font-size: 0;
+.contact-info span .icon {
+  margin-right: 15px;
+  width: 32px;
+}
 
-    &:first-child {
-      margin-right: 22px;
-    }
-  }
+.contact-info iframe {
+  border-radius: 5px;
+}
+
+/* label inline color, label out unfocused color */
+.contact-info .input-field label,
+.contact-info .input-field label.active {
+  color: white;
+}
+
+.contact-info .input-field textarea:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+/* label out focused color */
+.contact-info .input-field textarea:focus+label {
+  color: white;
+}
+
+/* underline focused color */
+.contact-info .input-field input[type=text]:focus,
+.contact-info .input-field input[type=email]:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+
+/* label out focused color */
+.contact-info .input-field input[type=text]:focus+label,
+.contact-info .input-field input[type=email]:focus+label {
+  color: white;
+}
+
+.contact-info .input-field .datepicker-day-button {
+  color: black;
+}
+
+.booking-links a {
+
+  font-size: 0;
+}
+
+.booking-links a:first-child {
+  margin-right: 22px;
 }
 
 img {
@@ -332,10 +308,8 @@ img:not(.icon):not(.rectangular) {
     font-size: 1.6rem;
   }
 
-  .contact-info {
-    span {
-      font-size: 20px;
-    }
+  .contact-info span {
+    font-size: 20px;
   }
 
   nav .nav-wrapper {
