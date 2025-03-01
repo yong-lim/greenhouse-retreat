@@ -1,11 +1,11 @@
 - title : Rooms
   link  : "#rooms"
     
-- title : Contact
-  link  : "#contact"
-
 - title : Tours
   link  : "#tours"
 
 - title : Facilities
   link  : "#facilities"
+
+- title : Contact
+  link  : "#contact"
