@@ -61,10 +61,10 @@
                 <!-- Room-Type Images -->
                 <div class="row mobile-scrollable-row">
                   {% for i in (1..3) %}
-                  <div class="glightbox col s6 m4">
-                    <!-- <a href="assets/img/rooms/{{ room-type.image-code }}-{{ i }}.jpg" data-gallery="g1"> -->
-                    <img src="assets/img/rooms/{{ room-type.image-code }}-{{ i }}.jpg" alt="" class="responsive-img">
-                    <!-- </a> -->
+                  <div class="col s6 m4">
+                    <a href="assets/img/rooms/{{ room-type.image-code }}-{{ i }}.jpg" data-gallery="g1" class="glightbox">
+                      <img src="assets/img/rooms/{{ room-type.image-code }}-{{ i }}.jpg" alt="" class="responsive-img">
+                    </a>
                   </div>
                   {% endfor %}
                 </div>
