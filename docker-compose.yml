@@ -3,10 +3,17 @@ services:
   jekyll:
     image: bretfisher/jekyll-serve
     container_name: greenhouse
-    working_dir: /srv
+    working_dir: /srv-jekyll
     volumes:
-      - .:/srv
+      - .:/srv-jekyll
+    expose: '5746'
     ports:
       - '5746:5746'
       - '35746:35746'
-    command: bundle exec jekyll s --trace --force_polling -H 0.0.0.0 -P 5746 -l --livereload-port 35746
+    command: |
+      bundle exec jekyll serve
+      --trace --force_polling
+      --host 0.0.0.0
+      --port 5746
+      --livereload
+      --livereload-port 35746
