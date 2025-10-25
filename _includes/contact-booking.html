@@ -12,7 +12,7 @@
         {%- if item.class %}
         <input type="{{ item.type }}" name="{{ item.name }}" class="{{ item.class }}" id="{{ item.id }}">
         {%- else %}
-        <input type="{{ item.type }}" name="{{ item.name }}" id="{{ item.id }}" {{ item.req }} autocomplete="on">
+        <input type="{{ item.type }}" {{ item.range }} name="{{ item.name }}" id="{{ item.id }}" {{ item.req }} autocomplete="on">
         {%- endif %}
         <label for="{{ item.id }}">{{ item.label }}</label>
       </div>
