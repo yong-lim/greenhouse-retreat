@@ -19,7 +19,6 @@ formats:
     label: "Phone"
     name: "entry.1646358082"
   - id: "date"
-    class: "datepicker"
     type: "date"
     label: "Check-in date"
     name: "entry.424626643"
@@ -31,3 +30,4 @@ formats:
     type: "number"
     label: "Amount of nights"
     name: "entry.1903568740"
+    range: 'min="1" max="100"'
