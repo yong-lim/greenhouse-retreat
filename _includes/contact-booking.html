@@ -29,8 +29,23 @@
         <p>Uh oh! Something went wrong!</p>
       </div>
 
+      <!-- Cloudflare turnstile -->
+      <!-- data-sitekey="0x4AAAAAACBS67j6X2dtzEYe" -->
+      <!-- data-sitekey="1x00000000000000000000AA" -->
+      <!-- data-sitekey="2x00000000000000000000AB" -->
+      <div
+        id="cf-turnstile"
+        class="cf-turnstile"
+        data-sitekey="0x4AAAAAACBS67j6X2dtzEYe"
+        data-theme="light"
+        data-size="flexible"
+        data-callback="onTurnstileSuccess"
+        data-error-callback="onTurnstileError"
+        data-expired-callback="onTurnstileExpired" >
+      </div>
+
       <!-- Submit Button -->
-      <button id="sendButton" class="btn btn-white color-primary" type="submit" name="action">SEND ➤</button>
+      <button id="sendButton" class="btn btn-white color-primary hidden" type="submit" name="action">SEND ➤</button>
     </form>
   </div>
 
