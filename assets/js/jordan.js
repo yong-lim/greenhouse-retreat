@@ -1,11 +1,12 @@
 function formReset() {
   $('#alert-field').show()
     .html("<span><p>Thank you. We'll get back to you asap.</p></span><br>");
-  document.getElementById("formID").reset();
   setTimeout(() => {
+    // document.getElementById("formID").reset();
+    $('#formID').reset();
     $('#sendButton').show();
     $('#alert-field').hide();
-    console.log('This alert appeared after 3 second!'); 
+    console.log('This alert appeared after 3 second!');
   }, 3000);
 }
 
@@ -26,12 +27,12 @@ function postGreenhouse(e) {
 
   // form is in sor.phouen@4lims.com
   const formID  = "1FAIpQLSduR6NYkzWsDHM8w65wz3x_mpe23aUvvEwd0eundWrgQwALDA";
-  const formURL = `https://docs.google.com/forms/d/e/${formID}/formResponse`;    
+  const formURL = `https://docs.google.com/forms/d/e/${formID}/formResponse`;
   //AJAX request
   $.ajax({
     //The public Google Form url, but replace /view with /formResponse
     url: formURL,
-    data: $('#formID').serialize(), //Nifty jquery function that gets all the input data 
+    data: $('#formID').serialize(), //Nifty jquery function that gets all the input data
     type: 'POST', //tells ajax to post the data to the url
     dataType: "json", //the standard data type for most ajax requests
     mode: 'no-cors',
@@ -40,7 +41,7 @@ function postGreenhouse(e) {
       0: function(data) { //0 is when Google gives a CORS error, don't worry it went through
         //success
         formReset();
-       }, 
+       },
        200: function(data) {//200 is a success code. it went through!
         //success
         // $('#form-success').text('hooray! 200');
