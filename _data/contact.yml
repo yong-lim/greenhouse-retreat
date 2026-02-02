@@ -25,7 +25,7 @@ formats:
   - id: "room-type"
     type: "text"
     label: "Room type"
-    name: "entry.140219999"
+    name: "entry.809169730"
   - id: "nights"
     type: "number"
     label: "Amount of nights"
