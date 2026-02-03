@@ -1,6 +1,6 @@
 function formReset() {
   $('#alert-field').show()
-    .html("<span><p>Thank you. We'll get back to you asap.</p></span><br>");
+    .html("<span><p>Thank you. We'll get back to you ASAP.</p></span><br>");
   setTimeout(() => {
     document.getElementById("formID").reset();
     $('#sendButton').show();
