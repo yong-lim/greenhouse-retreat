@@ -3,7 +3,7 @@
   bed: "1 double bed (+ 1 single bed)"
   short-description: ""
   price: $ 40-55
-  options: 
+  options:
   - title: "Deluxe Garden Bungalow"
     image-code: "gb-deluxe"
     bed: "1 double bed + 1 small bed"
@@ -26,7 +26,7 @@
   bed: "1 double bed / 2 single beds"
   short-description: ""
   price: $ 40-45
-  options: 
+  options:
   - title: "Jungle Bungalow (Double)"
     image-code: "jb-double"
     bed: "1 double bed"
@@ -43,7 +43,7 @@
   bed: "1 double bed / 2 single beds"
   short-description: ""
   price: $ 45
-  options: 
+  options:
   - title: "Deluxe Jungle Bungalow with Balcony"
     image-code: "dj-balcony"
     bed: "1 double bed"
@@ -65,25 +65,25 @@
   bed: "1 single bed"
   short-description: ""
   price: $ 20
-  options: 
+  options:
   - title: "Single Room"
     image-code: "sr"
     bed: "1 single bed"
     price: "$ 20"
     description: "Single Room with a shared terrace and a garden view. Featuring a comfortable single bed with a mosquito net, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
-  
+
 - title: "Yellow Bungalow"
   img-cover: "yb-cover.jpg"
   bed: "1 double bed + 2 bunk-beds"
   short-description: ""
   price: $ 55
-  options: 
+  options:
   - title: "Yellow Bungalow"
     image-code: "yb"
     bed: "1 double bed + 2 bunk-beds"
     price: "$ 55"
     description: "A spacious modern bungalow with a beautiful view over the jungle hills to accommodate a family of four or a group of friends. Featuring a comfortable double bed with a mosquito net and a bunk bed for two, private bathroom, AC, TV, hairdryer, electric kettle, bathrobes, fridge, free toiletries and a seating area. Delicious breakfast included."
-  
+
 - title: "Dormitory"
   unavailable: true
   img-cover: "do-cover.jpg"
