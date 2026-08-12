@@ -48,5 +48,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - docker-compose.yml
+  - podman-compose.yml
   - .jj/
